@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CalculatorSuite">
+    <test name="TestNG_Calculations">
+        <groups>
+            <run>
+                <include name="MathOperations" />
+            </run>
+        </groups>
+        <classes>
+            <class name="Sample.TestNG_Calculations" />
+        </classes>
+    </test>
+</suite>
